@@ -6,7 +6,7 @@ foreach arg $args {
 set n [expr {$n + 1}]
 set t [expr {$t + $arg}]
 }
-puts "Avg is [expr {$t / $n}]"
+puts "Avg is [expr {$t / 1.0 / $n}]"
 }
 
-avg 4 5.5 9 12
+#avg 4 5.5 9 12
